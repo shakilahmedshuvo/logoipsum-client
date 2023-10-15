@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "SEARCH",
+        "des": "for vital company information",
+        "icon": "../src/assets/search.svg"
+    },
+    {
+        "id": 2,
+        "name": "CONNECT",
+        "des": "with the resources to meet your business needs",
+        "icon": "../src/assets/contact.svg"
+    },
+    {
+        "id": 3,
+        "name": "RESEARCH",
+        "des": "and generate reports that drive growth",
+        "icon": "../src/assets/research.svg"
+    },
+    {
+        "id": 4,
+        "name": "ACADEMY",
+        "des": "to give you the skills for success in your career",
+        "icon": "../src/assets/academy.svg"
+    }
+]

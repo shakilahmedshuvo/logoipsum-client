@@ -4,8 +4,19 @@ import search from "../../../assets/search.svg";
 import contact from "../../../assets/contact.svg";
 import academy from "../../../assets/academy.svg";
 import research from "../../../assets/research.svg";
+import { useEffect, useState } from "react";
+import SinglePlatform from "./SinglePlatform";
 
 const Platform = () => {
+    const [data, setData] = useState([]);
+
+    // fetch the from json file
+    useEffect(() => {
+        fetch('platform.json')
+            .then(res => res.json())
+            .then(data => setData(data))
+    }, []);
+
     return (
         <div
             className="mt-20 max-w-7xl mx-auto">
@@ -27,8 +38,13 @@ const Platform = () => {
 
                     {/* icons section start */}
                     <div
-                        className="grid grid-cols-2">
-
+                        className="grid grid-cols-2 mt-8 mb-10">
+                        {
+                            data.map(data => <SinglePlatform
+                                key={data.id}
+                                data={data}
+                            ></SinglePlatform>)
+                        }
                     </div>
                     {/* icons section end */}
 
