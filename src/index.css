@@ -42,3 +42,12 @@
   border-radius: 10px;
   background: var(--gradient-border-outline, linear-gradient(96deg, #0076CE 0%, #9400D3 100%));
 }
+
+.platform {
+  background: linear-gradient(90deg, #0076CE 0.11%, #9400D3 43.35%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  line-height: normal;
+}
