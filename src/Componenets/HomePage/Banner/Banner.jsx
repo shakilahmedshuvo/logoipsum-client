@@ -7,8 +7,8 @@ const Banner = () => {
         <>
             <div
                 className="banner">
-
             </div>
+            
             <div
                 className="container mx-auto">
                 <div
@@ -64,7 +64,7 @@ const Banner = () => {
                 </div>
             </div>
             <svg
-                className="w-full absolute top-[550px] max-w-7xl mx-auto"
+                className="w-full absolute top-[510px] mx-auto"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1536 210"
                 fill="none">

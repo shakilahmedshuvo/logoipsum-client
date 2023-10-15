@@ -7,6 +7,13 @@
   font-family: 'Poppins', sans-serif;
 }
 
+/* banner bg gradient */
+.banner {
+  background: linear-gradient(75deg, #FEDDEE 0%, #FCF6FC 31.77%, #C5EAED 64.58%, #FDDDFE 100%);
+  height: 500px;
+  filter: blur(200px);
+}
+
 /* Partners text gradient */
 .Partners {
   background: linear-gradient(91deg, #0076CE 26.63%, #9400D3 65.81%);
@@ -18,8 +25,20 @@
   line-height: 80px;
 }
 
-.banner {
-  background: linear-gradient(75deg, #FEDDEE 0%, #FCF6FC 31.77%, #C5EAED 64.58%, #FDDDFE 100%);
-  height: 500px;
-  filter: blur(200px);
+/* Join text gradient */
+.join {
+  background: linear-gradient(90deg, #0076CE 43.35%, #9400D3 65.11%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.num {
+  border-radius: 10px;
+  background: var(--gradient-border-outline, linear-gradient(96deg, #0076CE 0%, #9400D3 100%));
 }
