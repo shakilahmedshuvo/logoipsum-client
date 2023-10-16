@@ -1,4 +1,4 @@
-import logo from "../../../../public/logo.png";
+import logo from "../../../assets/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {

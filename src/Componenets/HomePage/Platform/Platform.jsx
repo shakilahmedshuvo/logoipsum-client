@@ -109,6 +109,7 @@ const Platform = () => {
                         <div
                             className="col-span-2">
                             <img
+                                className="rounded-full"
                                 src={maleImg}
                                 alt="" />
                         </div>
@@ -117,7 +118,7 @@ const Platform = () => {
                         <div
                             className="col-span-3">
                             <img
-                                className="ms-10"
+                                className="rounded-full ms-10"
                                 src={feamleImg}
                                 alt="" />
                         </div>

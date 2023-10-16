@@ -1,5 +1,4 @@
 import Banner from "../Banner/Banner";
-import Footer from "../Footer/Footer";
 import JoinUs from "../JoinUs/JoinUs";
 import Platform from "../Platform/Platform";
 
@@ -9,7 +8,6 @@ const Home = () => {
             <Banner />
             <JoinUs />
             <Platform />
-            <Footer />
         </div>
     );
 };
