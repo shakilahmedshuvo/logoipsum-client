@@ -1,6 +1,7 @@
 import imageOne from "../../../assets/Picture.png";
 import imageTwo from "../../../assets/Picture (1).png";
 import imageThere from "../../../assets/Picture (2).png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
@@ -8,7 +9,7 @@ const Banner = () => {
             <div
                 className="banner">
             </div>
-            
+
             <div
                 className="container mx-auto">
                 <div
@@ -37,10 +38,13 @@ const Banner = () => {
                                 type="text"
                                 placeholder="Search by Name"
                             />
-                            <button
-                                className="bg-[#0076CE] text-white text-sm py-4 px-9 rounded-md">
-                                Search
-                            </button>
+                            <Link
+                            to="/detailsPage">
+                                <button
+                                    className="bg-[#0076CE] text-white text-sm py-4 px-9 rounded-md">
+                                    Search
+                                </button>
+                            </Link>
                         </div>
                         {/* banner input field end */}
                     </div>

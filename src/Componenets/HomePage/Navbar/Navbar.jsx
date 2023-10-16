@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../../../assets/logo.png";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -12,10 +13,13 @@ const Navbar = () => {
                     className="col-span-8">
                     <div
                         className="flex items-center font-bold">
-                        <img
-                            className="w-[138px]"
-                            src={logo}
-                            alt="" />
+                        <Link
+                            className="/">
+                            <img
+                                className="w-[138px]"
+                                src={logo}
+                                alt="" />
+                        </Link>
                         <p
                             className="mx-5 flex items-center">
                             Solutions <IoIosArrowDown className="ms-2 text-blue-600 font-extrabold" />
