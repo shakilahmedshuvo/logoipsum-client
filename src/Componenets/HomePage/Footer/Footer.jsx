@@ -164,11 +164,19 @@ const Footer = () => {
                             </svg>
                         </div>
 
-
                     </div>
                 </div>
             </div>
 
+            {/* black footer start */}
+            <div
+                className="bg-black">
+                <small
+                    className="text-white text-xs font-thin flex items-center justify-center py-5">
+                    Registered trademark of India Private Limited © 2023 loerumipsum Inc. All Rights Reserved
+                </small>
+            </div>
+            {/* black footer end */}
 
         </div>
     );
