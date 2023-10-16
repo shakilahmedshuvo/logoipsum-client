@@ -1,9 +1,5 @@
 import maleImg from "../../../assets/malePhoto.png";
-import feamleImg from "../../../assets/malePhoto.png";
-import search from "../../../assets/search.svg";
-import contact from "../../../assets/contact.svg";
-import academy from "../../../assets/academy.svg";
-import research from "../../../assets/research.svg";
+import feamleImg from "../../../assets/femalePhoto.png";
 import { useEffect, useState } from "react";
 import SinglePlatform from "./SinglePlatform";
 
@@ -53,7 +49,80 @@ const Platform = () => {
 
                 {/* left side div start */}
                 <div>
+                    <div
+                        className="grid grid-cols-5">
 
+                        <div
+                            className="col-span-3">
+
+                            {/* chat section start */}
+                            <div
+                                className="mt-14">
+
+                                <div
+                                    className="flex items-end justify-end">
+                                    <p
+                                        className="w-fit bg-[#EFD9F9] font-[100] px-4 py-2 rounded-full rounded-br-3xl text-sm">
+                                        Hey, check out loreumipsum services
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="flex items-end justify-end my-3">
+                                    <p
+                                        className="w-fit bg-[#EFD9F9] font-[100] px-4 py-2 rounded-full rounded-br-3xl text-sm">
+                                        I learned from their videos, got my first job.
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="flex items-end justify-end">
+                                    <p
+                                        className="w-fit bg-[#EFD9F9] font-[100] px-4 py-2 rounded-full rounded-br-3xl text-sm">
+                                        You wont be disappointed with their services.
+                                    </p>
+                                </div>
+
+
+                                <div
+                                    className="flex items-end justify-end mt-14">
+                                    <p
+                                        className="w-fit bg-[#DDF3FF] font-[100] px-4 py-2 rounded-full rounded-br-3xl text-sm">
+                                        I got a perfect analysis report from them too
+                                    </p>
+                                </div>
+
+                                <div
+                                    className="flex items-end justify-end mt-2">
+                                    <p
+                                        className="w-fit bg-[#DDF3FF] font-[100] px-4 py-2 rounded-full rounded-br-3xl text-sm">
+                                        Oh, thats great.
+                                    </p>
+                                </div>
+
+                            </div>
+                            {/* chat section end */}
+
+                        </div>
+
+                        {/* male img */}
+                        <div
+                            className="col-span-2">
+                            <img
+                                src={maleImg}
+                                alt="" />
+                        </div>
+
+                        {/* female img */}
+                        <div
+                            className="col-span-3">
+                            <img
+                                className="ms-10"
+                                src={feamleImg}
+                                alt="" />
+                        </div>
+
+                    </div>
                 </div>
                 {/* left side div end */}
 
