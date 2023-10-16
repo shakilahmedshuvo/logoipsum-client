@@ -15,7 +15,7 @@ const Platform = () => {
 
     return (
         <div
-            className="mt-20 max-w-7xl mx-auto">
+            className="mt-28 max-w-7xl mx-auto relative mb-20">
             <div
                 className="grid grid-cols-2">
 

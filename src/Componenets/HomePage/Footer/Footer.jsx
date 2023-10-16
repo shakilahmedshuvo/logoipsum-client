@@ -3,7 +3,7 @@ import FooterLogo from "../../../assets/FooterLogo.png";
 const Footer = () => {
     return (
         <div
-            className="footerBg mt-16">
+            className="footerBg mt-16 relative">
 
             <div
                 className="max-w-7xl mx-auto pt-14 grid grid-cols-12 pb-4">

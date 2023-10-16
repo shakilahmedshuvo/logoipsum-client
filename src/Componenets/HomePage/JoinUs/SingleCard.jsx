@@ -3,7 +3,7 @@ const SingleCard = ({ data }) => {
 
     return (
         <div
-            className="mx-auto mt-6">
+            className="mx-auto mt-6 w-full">
             <div
                 className="num text-white px-3 py-3 font-bold w-fit relative right-3 top-11">
                 {num}

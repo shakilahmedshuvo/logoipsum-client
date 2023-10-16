@@ -15,18 +15,21 @@ const JoinUs = () => {
     return (
         <div
             className="mt-72">
-            <h2
-                className="text-[60px] font-[900] text-center">
-                Want to <span className="join">Join</span> Us?
-            </h2>
-            <p
-                className="text-center font-[24px] text-[400]">
-                To remain with us, it is essential that you diligently follow the steps provided
-            </p>
+            <div
+                className="z-10 relative">
+                <h2
+                    className="text-[60px] font-[900] text-center">
+                    Want to <span className="join">Join</span> Us?
+                </h2>
+                <p
+                    className="text-center font-[24px] text-[400]">
+                    To remain with us, it is essential that you diligently follow the steps provided
+                </p>
+            </div>
 
             {/* wave section start */}
             <svg
-                className="w-full max-w-full mx-auto"
+                className="absolute"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1536 757"
                 fill="none">
@@ -37,16 +40,20 @@ const JoinUs = () => {
             {/* wave section end */}
 
             <div
-                className="absolute top-[1020px] grid grid-cols-3 gap-8 mx-28">
-                {
-                    data.map(data => <SingleCard
-                        key={data.id}
-                        data={data}
-                    ></SingleCard>)
-                }
+                className="max-w-7xl mx-auto">
+                <div
+                    // className="absolute top-[1020px] grid grid-cols-3 gap-8 mx-28">
+                    className="grid grid-cols-3 gap-8 relative z-10">
+                    {
+                        data.map(data => <SingleCard
+                            key={data.id}
+                            data={data}
+                        ></SingleCard>)
+                    }
+                </div>
             </div>
             <div
-                className="mt-10 w-[80%] mx-auto text-gray-600">
+                className="my-32 max-w-7xl mx-auto text-gray-600 relative font-medium text-base">
                 * For forms AOC-4 and MGT-7, you will be charged a penalty of ₹200 every day until you file the form . There is no maximum penalty amount. So, if you dont file the form for a year, you will owe ₹73,000 per form
             </div>
         </div>
