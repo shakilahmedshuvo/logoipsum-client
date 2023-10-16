@@ -32,7 +32,7 @@ const Platform = () => {
                         That Makes Easier
                     </h2>
                     <p
-                        className="mt-5 text-[24px] font-light text-gray-700">
+                        className="mt-8 text-[24px] font-light text-gray-700">
                         We are more than a platform; We are your success partner. Discover our services to achieve your business and educational goals
                     </p>
 
