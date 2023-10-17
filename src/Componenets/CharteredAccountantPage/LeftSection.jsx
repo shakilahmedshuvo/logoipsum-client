@@ -18,17 +18,17 @@ const LeftSection = ({ data }) => {
                 </p>
 
                 <p
-                    className="text-xl flex items-center font-bold text-blue-600 pt-8 pb-6">
+                    className="text-xl flex items-center font-bold text-[#0076CE] pt-8 pb-6">
                     <FaStar className="mr-2" /> {rating}<span
                         className="font-thin text-gray-600">({reviewCount})</span>
                 </p>
 
                 <div
-                    className="bg-gray-50">
+                    className="bg-gray-50 px-8 py-4 rounded-2xl shadow-md mx-1">
                     <div
-                        className="flex items-center justify-between">
+                        className="flex items-center justify-between pt-2 pb-4">
                         <p
-                            className="text-lg font-thin text-gray-700">
+                            className="text-xl font-thin text-gray-700">
                             {taskComplexity}
                         </p>
                         <p
@@ -39,15 +39,17 @@ const LeftSection = ({ data }) => {
 
                     <div>
                         <p
-                            className="text-lg flex items-center">
-                            <BsCalendar3 className="mr-3 text-blue-600" />{deliveryTime}
+                            className="text-lg flex items-center pb-3 px-2">
+                            <BsCalendar3 className="mr-3 text-[#0076CE]" />{deliveryTime}
                         </p>
                         <div
-                            className="grid grid-cols-2">
-                            <div>
+                            className="grid grid-cols-2 my-4">
+                            <div
+                                className="bg-[#0076CE] text-white rounded-xl font-semibold py-3 flex items-center justify-center mr-3">
                                 Request Proposal
                             </div>
-                            <div>
+                            <div
+                                className="bg-white text-[#0076CE] font-semibold border-2 border-[#0076CE] rounded-xl ms-3 flex items-center justify-center">
                                 Chat with me
                             </div>
                         </div>
