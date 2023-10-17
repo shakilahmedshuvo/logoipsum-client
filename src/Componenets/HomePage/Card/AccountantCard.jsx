@@ -9,7 +9,7 @@ const AccountantCard = ({ data }) => {
         <div
             className="flex items-center justify-center">
             <div
-                className="border-t-4 border-t-blue-600 w-[85%] mt-10 bg-gray-50 shadow-md rounded-sm">
+                className="border-t-4 border-t-blue-500 w-[85%] mt-10 bg-gray-50 shadow-md rounded-sm">
                 <div
                     className="flex items-center justify-end mr-2 mt-2">
                     <p
@@ -20,7 +20,7 @@ const AccountantCard = ({ data }) => {
                 <div
                     className="flex items-center justify-center">
                     <img
-                        className="w-1/2 mt-1 pb-6"
+                        className="w-1/2 mt-1 pb-6 rounded-sm"
                         src={cardImg}
                         alt="" />
                 </div>
@@ -37,7 +37,7 @@ const AccountantCard = ({ data }) => {
                         className="flex items-center justify-center">
                         <Link
                             to={`/detailsPage/${id}`}
-                            className="text-white footerBg w-fit font-semibold px-4 py-2 flex items-center justify-center rounded-md mt-3 mb-8">
+                            className="text-white footerBg w-fit font-medium px-4 py-2 flex items-center justify-center rounded-md mt-3 mb-8 text-sm">
                             View More
                         </Link>
                     </div>
