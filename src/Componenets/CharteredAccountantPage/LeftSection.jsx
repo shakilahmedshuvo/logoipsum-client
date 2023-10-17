@@ -24,7 +24,7 @@ const LeftSection = ({ data }) => {
                 </p>
 
                 <div
-                    className="bg-gray-50 px-8 py-4 rounded-2xl shadow-lg mx-1">
+                    className="bg-gray-50 px-8 py-4 rounded-2xl shadow-md mx-1">
                     <div
                         className="flex items-center justify-between pt-2 pb-4">
                         <p
@@ -58,7 +58,7 @@ const LeftSection = ({ data }) => {
                 </div>
                 {/* review section start */}
                 <div
-                    className="bg-gray-50 px-8 py-4 rounded-2xl shadow-lg mx-1 mt-8 mb-5">
+                    className="bg-gray-50 px-8 py-4 rounded-2xl shadow-md mx-1 mt-8 mb-5">
                     <h2 className="text-4xl font-extrabold mt-4">
                         What people say?
                     </h2>

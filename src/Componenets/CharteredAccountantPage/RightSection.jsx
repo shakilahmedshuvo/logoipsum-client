@@ -3,7 +3,7 @@ const RightSection = ({ data }) => {
 
     return (
         <div
-            className="px-4">
+            className="px-4 mb-48">
             <div
                 className="flex items-center justify-center">
                 <img
@@ -25,7 +25,7 @@ const RightSection = ({ data }) => {
                         <h2 className="text-gray-400 font-[900]">
                             FROM
                         </h2>
-                        <p>
+                        <p className="my-4 text-lg font-medium">
                             {about?.from}
                         </p>
                     </div>
@@ -33,7 +33,7 @@ const RightSection = ({ data }) => {
                         <h2 className="text-gray-400 font-[900]">
                             PARTNER SINCE
                         </h2>
-                        <p>
+                        <p className="my-4 text-lg font-medium">
                             {about?.partnerSince}
                         </p>
                     </div>
@@ -42,10 +42,46 @@ const RightSection = ({ data }) => {
                         <h2 className="text-gray-400 font-[900]">
                             AVERAGE RESPONSE TIME
                         </h2>
-                        <p>
+                        <p className="my-4 text-lg font-medium">
                             {about?.averageResponseTime}
                         </p>
                     </div>
+
+                </div>
+
+                <div className="mt-6">
+                    <h2 className="text-gray-400 font-[900]">
+                        ABOUT
+                    </h2>
+                    <p className="my-4 text-lg">
+                        {about?.description}
+                    </p>
+                </div>
+
+                <div
+                    className="grid grid-cols-3 mt-10">
+                    <div
+                        className="col-span-2">
+                        <h2 className="text-gray-400 font-[900]">
+                            SERVICES I OFFER
+                        </h2>
+                        <div className="my-3 ms-5 text-lg">
+                            <li>{about?.services}</li>
+                            <li className="my-2">{about?.services}</li>
+                            <li>{about?.services}</li>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 className="text-gray-400 font-[900]">
+                            WHY ME?
+                        </h2>
+                        <div className="my-3 ms-5 text-lg">
+                            <li>{about?.benefits}</li>
+                            <li className="my-2">{about?.benefits}</li>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
