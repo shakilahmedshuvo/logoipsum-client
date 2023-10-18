@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import LeftSection from "./LeftSection";
 import RightSection from "./RightSection";
-import Recommended from "./Recommended";
+import Recommended from "../Recommended/Recommended";
 
 const DetailsPage = () => {
     const param = useParams();
@@ -28,7 +28,8 @@ const DetailsPage = () => {
                 <div
                     className="col-span-5">
                     <LeftSection
-                        data={data}>
+                        data={data}
+                        key={data.id}>
                     </LeftSection>
                 </div>
 
@@ -36,7 +37,8 @@ const DetailsPage = () => {
                 <div
                     className="col-span-7">
                     <RightSection
-                        data={data}>
+                        data={data}
+                        key={data.id}>
                     </RightSection>
                 </div>
 
@@ -44,7 +46,9 @@ const DetailsPage = () => {
 
 
             {/* Recommended section start */}
+
             <Recommended />
+
             {/* Recommended section end */}
         </div>
     );

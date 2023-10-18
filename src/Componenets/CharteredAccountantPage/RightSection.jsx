@@ -7,7 +7,7 @@ const RightSection = ({ data }) => {
             <div
                 className="flex items-center justify-center">
                 <img
-                    className="rounded-2xl"
+                    className="w-full rounded-2xl"
                     src={image}
                     alt="" />
             </div>
@@ -65,10 +65,20 @@ const RightSection = ({ data }) => {
                         <h2 className="text-gray-400 font-[900]">
                             SERVICES I OFFER
                         </h2>
-                        <div className="my-3 ms-5 text-lg">
-                            <li>{about?.services}</li>
-                            <li className="my-2">{about?.services}</li>
-                            <li>{about?.services}</li>
+                        <div className="my-4 ms-5 text-lg">
+                            {/* map section start */}
+                            {
+                                about?.services.map((service, index) => {
+                                    return (
+                                        <li
+                                            className="py-1"
+                                            key={index}>
+                                            {service}
+                                        </li>
+                                    )
+                                })
+                            }
+                            {/* map section end */}
                         </div>
                     </div>
 
@@ -76,9 +86,20 @@ const RightSection = ({ data }) => {
                         <h2 className="text-gray-400 font-[900]">
                             WHY ME?
                         </h2>
-                        <div className="my-3 ms-5 text-lg">
-                            <li>{about?.benefits}</li>
-                            <li className="my-2">{about?.benefits}</li>
+                        <div className="my-4 ms-5 text-lg">
+
+                            {
+                                about?.benefits.map((data, index) => {
+                                    return (
+                                        <li
+                                            className="py-1"
+                                            key={index}>
+                                            {data}
+                                        </li>
+                                    )
+                                })
+                            }
+
                         </div>
                     </div>
 
