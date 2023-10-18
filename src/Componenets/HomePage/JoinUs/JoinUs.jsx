@@ -29,7 +29,7 @@ const JoinUs = () => {
 
             {/* wave section start */}
             <svg
-                className="absolute"
+                className="absolute hidden lg:block"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 1536 757"
                 fill="none">
@@ -43,7 +43,7 @@ const JoinUs = () => {
                 className="max-w-7xl mx-auto">
                 <div
                     // className="absolute top-[1020px] grid grid-cols-3 gap-8 mx-28">
-                    className="grid grid-cols-3 gap-8 relative z-10">
+                    className="grid grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
                     {
                         data.map(data => <SingleCard
                             key={data.id}

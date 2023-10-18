@@ -6,7 +6,7 @@ const Footer = () => {
             className="footerBg relative">
 
             <div
-                className="max-w-7xl mx-auto pt-14 grid grid-cols-12 pb-4">
+                className="max-w-7xl mx-auto pt-14 grid lg:grid-cols-12 pb-4">
 
                 <div
                     className="col-span-4">
@@ -24,7 +24,7 @@ const Footer = () => {
 
                 {/* footer list  */}
                 <div
-                    className="col-span-8 grid grid-cols-5 listItem text-white">
+                    className="col-span-8 grid lg:grid-cols-5 listItem text-white">
 
                     <div>
                         <h2
@@ -108,7 +108,7 @@ const Footer = () => {
                         Sambhaji Nagar, No2, St. Antony Road, Chembur, Mumbai - 400071, Maharashtra
                     </p>
                     <div
-                        className="flex justify-between w-1/12 pb-8">
+                        className="lg:flex justify-between w-1/12 pb-8 hidden">
                         <div>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

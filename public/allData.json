@@ -33,7 +33,7 @@
         "id": 2,
         "name": "Lucy Brown",
         "image": "../src/assets/imageOne.png",
-        "intro": "Dedicated accountant with expertise in taxation and corporate finance.",
+        "intro": "Dedicated accountant with expertise in taxation and corporate finance specializing in financial statements.",
         "rating": 4.5,
         "reviewCount": 75,
         "taskComplexity": "Intermediate to advanced tasks",

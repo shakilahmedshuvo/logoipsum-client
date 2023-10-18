@@ -3,7 +3,7 @@ const RightSection = ({ data }) => {
 
     return (
         <div
-            className="px-4 mb-48">
+            className="px-4 mb-20">
             <div
                 className="flex items-center justify-center">
                 <img
@@ -15,12 +15,12 @@ const RightSection = ({ data }) => {
             <div
                 className="lg:ms-2">
                 <h2
-                    className="text-4xl font-extrabold mt-10">
+                    className="text-3xl lg:text-4xl font-extrabold mt-10">
                     About {name}
                 </h2>
 
                 <div
-                    className="grid grid-cols-4 mt-6">
+                    className="grid lg:grid-cols-4 mt-6">
                     <div>
                         <h2 className="text-gray-400 font-[900]">
                             FROM
@@ -59,7 +59,7 @@ const RightSection = ({ data }) => {
                 </div>
 
                 <div
-                    className="grid grid-cols-3 mt-10">
+                    className="grid lg:grid-cols-3 mt-10">
                     <div
                         className="col-span-2">
                         <h2 className="text-gray-400 font-[900]">

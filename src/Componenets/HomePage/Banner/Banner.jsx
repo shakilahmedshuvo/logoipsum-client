@@ -13,11 +13,11 @@ const Banner = () => {
             <div
                 className="container mx-auto">
                 <div
-                    className="grid grid-cols-2 pt-28 pb-28 ps-32 absolute top-24 w-full container z-10">
+                    className="grid lg:grid-cols-2 lg:pt-28 pb-28 lg:ps-32 absolute top-24 w-full container z-10">
                     <div>
                         {/* banner main text start */}
                         <h2
-                            className="text-[60px] font-[900]">
+                            className="text-4xl lg:text-[60px] font-[900]">
                             Find  <span className="Partners">Partners</span> (CAs)
                             <br />
                             available online

@@ -17,12 +17,12 @@ const Platform = () => {
         <div
             className="mt-28 max-w-7xl mx-auto relative mb-20">
             <div
-                className="grid grid-cols-2">
+                className="grid lg:grid-cols-2">
 
                 {/* right side div start */}
                 <div>
                     <h2
-                        className="text-6xl font-extrabold">
+                        className="text-4xl lg:text-6xl font-extrabold">
                         <span className="platform">All-in-One </span>platform
                         <br />
                         That Makes Easier
@@ -34,7 +34,7 @@ const Platform = () => {
 
                     {/* icons section start */}
                     <div
-                        className="grid grid-cols-2 mt-8 mb-10">
+                        className="grid lg:grid-cols-2 mt-8 mb-10">
                         {
                             data.map(data => <SinglePlatform
                                 key={data.id}
@@ -53,7 +53,7 @@ const Platform = () => {
                         className="grid grid-cols-5">
 
                         <div
-                            className="col-span-3">
+                            className="col-span-5 lg:col-span-3">
 
                             {/* chat section start */}
                             <div
@@ -109,7 +109,7 @@ const Platform = () => {
                         <div
                             className="col-span-2">
                             <img
-                                className="rounded-full"
+                                className="rounded-full hidden lg:block"
                                 src={maleImg}
                                 alt="" />
                         </div>
@@ -118,7 +118,7 @@ const Platform = () => {
                         <div
                             className="col-span-3">
                             <img
-                                className="rounded-full ms-10"
+                                className="rounded-full ms-10 hidden block lg:block"
                                 src={feamleImg}
                                 alt="" />
                         </div>

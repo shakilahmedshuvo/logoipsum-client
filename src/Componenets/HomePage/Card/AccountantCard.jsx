@@ -9,11 +9,11 @@ const AccountantCard = ({ data }) => {
         <div
             className="flex items-center justify-center">
             <div
-                className="border-t-4 border-t-blue-500 w-[85%] mt-10 bg-gray-50 shadow-md rounded-sm">
+                className="border-t-4 border-t-blue-500 w-[85%] mt-10 bg-gray-50 shadow-md rounded-xl">
                 <div
                     className="flex items-center justify-end mr-2 mt-2">
                     <p
-                        className="bg-pink-500 w-fit text-white flex items-center px-5 py-1 rounded-full my-2 text-sm">
+                        className="footerBg w-fit text-white flex items-center px-5 py-1 rounded-full my-2 text-sm">
                         <FaStar className="text-white mr-1 text-sm" />   {rating}
                     </p>
                 </div>

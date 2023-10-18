@@ -19,7 +19,7 @@ const SingleCard = ({ data }) => {
                     {des}
                 </p>
                 <div
-                    className="bg-[#F4F4F4] grid grid-cols-5 mx-8 py-2 px-3 h-[39%] rounded-2xl">
+                    className="bg-[#F4F4F4] grid lg:grid-cols-5 mx-8 py-2 px-3 h-[39%] rounded-2xl">
                     <div
                         className="col-span-2">
                         <h2

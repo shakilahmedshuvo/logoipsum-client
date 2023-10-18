@@ -19,7 +19,7 @@ const Card = () => {
             {/* heading section start */}
             <div>
                 <h2
-                    className="text-6xl font-extrabold text-center">
+                    className="text-3xl lg:text-6xl font-extrabold text-center">
                     Discover Your Perfect Match
                     <br />
                     Certified <span className="platform">Accountant</span>
@@ -33,7 +33,7 @@ const Card = () => {
 
             {/* card map section start */}
             <div
-                className="grid grid-cols-3 mb-20">
+                className="grid lg:grid-cols-3 mb-20">
                 {
                     data.slice(0, 9).map(data => <AccountantCard
                         key={data.id}

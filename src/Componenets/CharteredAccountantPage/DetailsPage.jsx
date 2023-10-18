@@ -26,7 +26,7 @@ const DetailsPage = () => {
                 {/* left side 5 cols div start */}
                 {/* left side 5 cols div end */}
                 <div
-                    className="col-span-5">
+                    className="lg:col-span-5 col-span-12">
                     <LeftSection
                         data={data}
                         key={data.id}>
@@ -35,7 +35,7 @@ const DetailsPage = () => {
 
                 {/* left side 5 cols div start */}
                 <div
-                    className="col-span-7">
+                    className="col-span-12 lg:col-span-7">
                     <RightSection
                         data={data}
                         key={data.id}>

@@ -5,7 +5,7 @@ const LeftSection = ({ data }) => {
     const { name, intro, rating, reviewCount, taskComplexity, price, deliveryTime, testimonial } = data;
 
     return (
-        <div>
+        <div className="ms-4 lg:ms-0">
 
             <div>
                 <h2
@@ -13,7 +13,7 @@ const LeftSection = ({ data }) => {
                     {name}
                 </h2>
                 <p
-                    className="text-xl font-thin mt-4 text-gray-700 pe-2">
+                    className="text-base lg:text-xl font-thin mt-4 text-gray-700 pe-2">
                     {intro}
                 </p>
 
@@ -59,7 +59,7 @@ const LeftSection = ({ data }) => {
                 {/* review section start */}
                 <div
                     className="bg-gray-50 px-8 py-4 rounded-2xl shadow-md mx-1 mt-8 mb-5">
-                    <h2 className="text-4xl font-extrabold mt-4">
+                    <h2 className="text-4xl font-extrabold mt-8">
                         What people say?
                     </h2>
                     <p
