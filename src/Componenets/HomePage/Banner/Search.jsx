@@ -7,8 +7,7 @@ const Search = () => {
             <input
                 className="pl-4 pe-52 py-4 rounded-md me-1 mt-[60px] border-2"
                 type="text"
-                placeholder="Search by Name"
-            />
+                placeholder="Search by Name" />
             <Link
                 to="/detailsPage">
                 <button
