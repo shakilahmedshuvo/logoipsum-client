@@ -6,7 +6,7 @@ const Recommended = () => {
     const loader = useLoaderData();
 
     return (
-        <div>
+        <>
             <div>
                 <h2
                     className='text-3xl lg:text-5xl font-black ps-3 lg:ps-0'>
@@ -25,7 +25,7 @@ const Recommended = () => {
                 }
             </div>
             {/* map section end */}
-        </div>
+        </>
     );
 };
 
